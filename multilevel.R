@@ -34,9 +34,10 @@ Allowing for geovocab to be both fixed and random
 
 
 
+model3.3 <- lme(fixed = geread~gevocab, random = ~gevocab|school, data = Achieve)
 
-
-
+summary(model3.3)
+fir
 
 
 
